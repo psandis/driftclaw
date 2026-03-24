@@ -1,0 +1,9 @@
+environments:
+  github:
+    url: https://api.github.com
+
+services:
+  github-api:
+    source: http
+    path: /
+    field: current_user_url

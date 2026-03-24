@@ -1,0 +1,27 @@
+environments:
+  dev:
+    url: https://dev.api.example.com
+  test:
+    url: https://tst.api.example.com
+  prod:
+    url: https://api.example.com
+
+services:
+  app-api:
+    source: http
+    path: /version
+    field: version
+
+  docs-api:
+    source: http
+    path: /openapi.json
+    field: info.version
+
+  website:
+    source: html-meta
+    field: generator
+    environments:
+      dev:
+        url: https://dev.example.com
+      prod:
+        url: https://example.com

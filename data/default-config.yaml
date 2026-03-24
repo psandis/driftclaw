@@ -1,0 +1,19 @@
+# driftclaw configuration
+# See: https://github.com/psandis/driftclaw
+
+environments:
+  dev:
+    url: https://dev.example.com
+  staging:
+    url: https://staging.example.com
+  prod:
+    url: https://example.com
+
+services:
+  auth-service:
+    source: http
+    path: /version
+    field: version
+  frontend:
+    source: git-tag
+    repo: owner/frontend
