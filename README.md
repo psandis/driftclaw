@@ -176,7 +176,8 @@ Notes:
 ## Related
 
 - 🦀 [Feedclaw](https://github.com/psandis/feedclaw) - RSS/Atom feed reader and AI digest CLI
-- 🦞 [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant
+- 🦀 [Dustclaw](https://github.com/psandis/dustclaw) - Find out what is eating your disk space
+- 🦞 [OpenClaw](https://github.com/openclaw/openclaw) - The OpenClaw ecosystem
 
 ## License
 
