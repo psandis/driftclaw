@@ -180,4 +180,4 @@ Notes:
 
 ## License
 
-MIT
+See [MIT](./LICENSE)
