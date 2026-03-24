@@ -10,11 +10,19 @@
     "cli": "tsx bin/driftclaw.ts",
     "dev": "tsx bin/driftclaw.ts",
     "build": "tsc",
+    "prepack": "pnpm build",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "biome check .",
     "format": "biome format --write ."
   },
+  "files": [
+    "dist",
+    "assets/driftclaw.png",
+    "driftclaw.example.yaml",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "cli",
     "devops",
@@ -29,6 +37,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/psandis/driftclaw.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=20"
