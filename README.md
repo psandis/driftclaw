@@ -1,5 +1,7 @@
 # Driftclaw 🦀
 
+[![npm](https://img.shields.io/npm/v/driftclaw?style=flat-square)](https://www.npmjs.com/package/driftclaw)
+
 See deployment drift across dev, test, staging, prod, and whatever weird environment names your company invented.
 
 <p align="center">
