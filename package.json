@@ -1,6 +1,6 @@
 {
   "name": "driftclaw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Environment version drift detection CLI",
   "type": "module",
   "directories": {
