@@ -9,7 +9,7 @@
   "scripts": {
     "cli": "tsx bin/driftclaw.ts",
     "dev": "tsx bin/driftclaw.ts",
-    "build": "tsc",
+    "build": "tsc && chmod +x dist/bin/driftclaw.js",
     "prepack": "pnpm build",
     "test": "vitest run",
     "test:watch": "vitest",
