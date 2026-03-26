@@ -179,6 +179,7 @@ Notes:
 
 - 🦀 [Feedclaw](https://github.com/psandis/feedclaw) - RSS/Atom feed reader and AI digest CLI
 - 🦀 [Dustclaw](https://github.com/psandis/dustclaw) - Find out what is eating your disk space
+- 🦀 [Dietclaw](https://github.com/psandis/dietclaw) - Codebase health monitor for size, bloat, and dependency weight
 - 🦞 [OpenClaw](https://github.com/openclaw/openclaw) - The OpenClaw ecosystem
 
 ## License
